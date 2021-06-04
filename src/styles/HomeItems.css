@@ -1,0 +1,14 @@
+
+.home-item-wrap {
+    padding: 5px;
+}
+
+.home-item {
+    border: 1px solid black;
+}
+
+@media (min-width: 300px) and (max-width: 575px) { 
+    .home-item-wrap {
+        width: 50%;
+    }
+ }

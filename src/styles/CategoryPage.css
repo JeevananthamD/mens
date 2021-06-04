@@ -1,0 +1,45 @@
+.filter {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.filter-header {
+    font-size: 25px;
+    font-weight: 700;
+    padding: 5px 0;
+}
+
+.filter-list {
+    list-style-type: none;
+    padding: 0 0 0 0.5rem;
+}
+
+.filter-list input {
+    margin-right: 0.5rem;
+}
+
+.category-item-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    row-gap: 20px;
+}
+
+.category-item {
+    width: 210px;
+    border: 1px solid black;
+    box-sizing: content-box;
+}
+
+.item-img-container {
+    width: 210px;
+    height: 280px;
+}
+
+.category-item-body {
+    width: 100%;
+}
+
+.item-description {
+    font-weight: 100;
+}
